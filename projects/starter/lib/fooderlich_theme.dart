@@ -69,7 +69,6 @@ class FooderlichTheme {
         ),
       ),
       appBarTheme: const AppBarTheme(
-        elevation: 0.0,
         foregroundColor: Colors.black,
         backgroundColor: Colors.white,
       ),

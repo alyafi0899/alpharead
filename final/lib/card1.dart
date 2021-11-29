@@ -21,11 +21,13 @@ class Card1 extends StatelessWidget {
               alignment: Alignment.center,
               child: Text(
                 title,
+                // ignore: prefer_const_constructors
                 style: TextStyle(
                   fontSize: 30,
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
                   shadows: [
+                    // ignore: prefer_const_constructors
                     Shadow(
                       blurRadius: 10.0,
                       color: Colors.black,
@@ -39,9 +41,11 @@ class Card1 extends StatelessWidget {
             Positioned(
               child: Text(
                 chef,
+                // ignore: prefer_const_constructors
                 style: TextStyle(
                   color: Colors.white,
                   shadows: [
+                    // ignore: prefer_const_constructors
                     Shadow(
                       blurRadius: 10.0,
                       color: Colors.black,
@@ -76,7 +80,7 @@ class Card1 extends StatelessWidget {
           boxShadow: [
             BoxShadow(
               color: Colors.black,
-              spreadRadius: 1,
+              spreadRadius: 0.2,
               blurRadius: 5,
               offset: Offset(2, 3), // changes position of shadow
             )

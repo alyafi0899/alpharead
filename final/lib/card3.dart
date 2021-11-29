@@ -74,7 +74,7 @@ class Card3 extends StatelessWidget {
           boxShadow: [
             BoxShadow(
               color: Colors.black,
-              spreadRadius: 1,
+              spreadRadius: 0.2,
               blurRadius: 5,
               offset: Offset(2, 3), // changes position of shadow
             )
